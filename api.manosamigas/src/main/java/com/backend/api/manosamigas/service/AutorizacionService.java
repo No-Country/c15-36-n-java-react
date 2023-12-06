@@ -17,7 +17,12 @@ public class AutorizacionService implements UserDetailsService{
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		// TODO Auto-generated method stub
-		return usuarioRepository.findByEmail(username);
+		UserDetails user = usuarioRepository.findByEmail(username);
+		if(user == null) {
+			throw new UsernameNotFoundException("Usuario no encontrado com o email" + username);
+		}
+		
+		return user;
 	}
 
 }
