@@ -4,6 +4,6 @@ import java.util.Date;
 
 import com.backend.api.manosamigas.enums.UsuarioEnum;
 
-public record RegistroRequestDTO(String login, String password, UsuarioEnum rol, String nombre, Date fechaNacimiento, String direcion) {
-
+public record RegistroRequestDTO(String login, String password, String nombre, Date fechaNacimiento, String direcion) {
+	
 }

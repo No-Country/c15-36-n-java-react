@@ -73,19 +73,14 @@ public class Usuario implements UserDetails{
 		return true;
 	}
 	
-	public Usuario(String email, String contrasena, UsuarioEnum rol) {
-		this.email = email;
-		this.contrasena = contrasena;
-		this.rol = rol;
-	}
-	
-	public Usuario(String email, String contrasena, UsuarioEnum rol, String nombre, Date fechaNacimiento, String direcion) {
+	public Usuario(String email, String contrasena, String nombre, Date fechaNacimiento, String direcion) {
 	    this.email = email;
 	    this.contrasena = contrasena;
 	    this.rol = rol;
 	    this.nombre = nombre;
 	    this.fechaNacimiento = fechaNacimiento;
 	    this.direcion = direcion;
+	    this.rol = UsuarioEnum.USER;
 	}
 	
 	

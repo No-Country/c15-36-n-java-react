@@ -57,7 +57,7 @@ public class AutenticacaoController {
 		
 		String encryptedPassword = passwordEncoder.encode(registroRequestDTO.password());
 		
-		Usuario newUser = new Usuario(registroRequestDTO.login(), encryptedPassword, registroRequestDTO.rol(),
+		Usuario newUser = new Usuario(registroRequestDTO.login(), encryptedPassword,
 				registroRequestDTO.nombre(), registroRequestDTO.fechaNacimiento(), registroRequestDTO.direcion());
 		
 		this.usuarioRepository.save(newUser);
