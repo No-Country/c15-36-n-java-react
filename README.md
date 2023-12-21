@@ -31,6 +31,10 @@ El área de Frontend ha sido implementada y documentada en el siguiente reposito
 
 Hemos logrado una primera aproximación al desarrollo del MVP, aunque quedan aspectos por diseñar y desarrollar. Estamos emocionados por continuar evolucionando el proyecto y agradecemos cualquier feedback que puedas proporcionar.
 
+### Link Deploy
+
+ **Manos Amigas Web:** [https://dojayuli.github.io/Manos-Amigas/](https://dojayuli.github.io/Manos-Amigas/)
+
 ¡Gracias por tu interés en el proyecto "Crowdfunding" de Manos Amigas!
 
 
