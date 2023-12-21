@@ -25,7 +25,22 @@ El área de Frontend ha sido implementada y documentada en el siguiente reposito
 
 ### Desarrollo Backend
 
-(Información sobre el área de Backend en desarrollo)
+Proyecto de backend para una plataforma de donaciones
+
+Se desarrolló un proyecto de backend para una plataforma de donaciones. El proyecto se implementó en Java 17, utilizando el framework Spring, JPA, Spring Security y MySQL.
+
+El proyecto tiene tres entidades:
+
+Usuario: Representa a un usuario de la plataforma.
+Causa: Representa una causa a la que se pueden realizar donaciones.
+Donación: Representa una donación realizada a una causa.
+Las relaciones entre estas entidades son las siguientes:
+
+Un usuario puede recibir donaciones a una causa.
+Un usuario puede tener varias causas.
+Una causa puede tener varias donaciones.
+Una donacion solo puede tener una causa.
+En la primera etapa del proyecto, se implementaron las funcionalidades de login y registro para la entidad usuario. En una segunda etapa, se implementarán el resto de funcionalidades, como la creación de causas, la visualización de donaciones y la gestión de perfiles de usuario.
 
 ### Estado Actual y Próximos Pasos
 
